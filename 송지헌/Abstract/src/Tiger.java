@@ -1,5 +1,5 @@
 
-public class Tiger extends Animals{
+public class Tiger extends Animals implements Do{
 
 	public Tiger(String str){
 		color = str;
@@ -8,6 +8,11 @@ public class Tiger extends Animals{
 	protected String getColor() {
 		// TODO Auto-generated method stub
 		return color;
+	}
+	@Override
+	public String Run() {
+		// TODO Auto-generated method stub
+		return " Tiger : Run" ;
 	}
 
 }

@@ -1,6 +1,6 @@
 
 
-public class Lion extends Animals{
+public class Lion extends Animals implements Do{
 	public Lion(String str){
 		color = str;
 	}
@@ -9,6 +9,12 @@ public class Lion extends Animals{
 	protected String getColor() {
 		// TODO Auto-generated method stub
 		return color;
+	}
+
+	@Override
+	public String Run() {
+		// TODO Auto-generated method stub
+		return " Lion : Run";
 	}
 
 }

@@ -1,5 +1,5 @@
 
-public abstract class Animals {
+public abstract class Animals{
 	protected String color;
 	protected abstract String getColor();
 }
